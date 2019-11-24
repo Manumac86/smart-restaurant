@@ -24,12 +24,15 @@
   },
   "homepage": "https://github.com/Manumac86/smart-restaurant#readme",
   "dependencies": {
-    "@babel/runtime": "7.7.4"
+    "@babel/runtime": "7.7.4",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/plugin-transform-runtime": "7.7.4",
     "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.7.4",
     "babel-loader": "8.0.6",
     "css-loader": "2.1.1",
     "html-webpack-plugin": "3.2.0",

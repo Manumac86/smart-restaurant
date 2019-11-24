@@ -52,7 +52,8 @@ module.exports = {
             filename: 'css/[name].css'
         }),
         new HtmlWebpackPlugin({
-            title: 'Plugins'
+            title: 'App',
+            template: path.resolve(__dirname, 'src/index.html')
         })
     ]
 };

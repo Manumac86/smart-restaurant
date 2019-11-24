@@ -1,13 +1,7 @@
-import './css/index.scss';
+import './css/index.scss'
 
-import text from './js/text';
+import React from 'react'
+import { render } from 'react-dom'
+import App from './modules/app/components/app'
 
-text();
-
-
-if (module.hot) {
-    module.hot.accept('./js/text.js', function() {
-        console.log('Hot Reload!');
-        text();
-    });
-}
+render(<App />, document.getElementById('container'))
