@@ -1,0 +1,24 @@
+{
+  "name": "smart-restaurant",
+  "version": "0.0.1",
+  "description": "An App to manage restaurant orders and payments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manumac86/smart-restaurant.git"
+  },
+  "keywords": [
+    "smart",
+    "restaurant",
+    "coffee"
+  ],
+  "author": "@manumac86",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manumac86/smart-restaurant/issues"
+  },
+  "homepage": "https://github.com/Manumac86/smart-restaurant#readme"
+}
