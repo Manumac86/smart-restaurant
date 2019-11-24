@@ -1,4 +1,4 @@
-function text() {
+const text = () => {
     document.body.innerHTML = '<h1>Welcome</h1>';
 }
 

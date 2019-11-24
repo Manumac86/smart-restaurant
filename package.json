@@ -23,9 +23,12 @@
     "url": "https://github.com/Manumac86/smart-restaurant/issues"
   },
   "homepage": "https://github.com/Manumac86/smart-restaurant#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/runtime": "7.7.4"
+  },
   "devDependencies": {
     "@babel/core": "7.4.5",
+    "@babel/plugin-transform-runtime": "7.7.4",
     "@babel/preset-env": "7.4.5",
     "babel-loader": "8.0.6",
     "css-loader": "2.1.1",
